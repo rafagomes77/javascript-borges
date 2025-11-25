@@ -1,14 +1,14 @@
-// Escreva um programa que solicita três números ao usuário e verifica se eles estão em ordem
-// crescente. Exibindo uma mensagem indicando se os números estão em ordem crescente ou
-// não.
+// Imprimir números pares de 0 a 20 utilizando o loop while
 
-let numero01 = parseFloat(prompt("digite o primeiro numero"))
-let numero02 = parseFloat(prompt("digite o segundo numero"))
-let numero03 = parseFloat(prompt("digite o terceiro numero"))
+let num = 0
 
-if(numero01 < numero02 && numero02 < numero03){
-    console.log ("os numeros estão em ordem crescente!")
+console.log("numeros pares de 0 a 20:")
+
+while(num <= 20){
+    if(num%2 == 0){
+        console.log(num)
+    }
+
+    num++
 }
-else{
-    console.log ("os numeros nao estao em ordem crescente")
-}
+// num = num +1
