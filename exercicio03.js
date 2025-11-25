@@ -1,8 +1,7 @@
-// Faça um programa que receba um número do usuário e informe se este número é par ou
-// ímpar.
- let numero = parseInt(prompt("informe um numero inteiro:"))
- if(numero%2 == 0){
-    console.log ("o numero é par")
- }else{
-    console.log( "o numero é impar")
- }
+// Faça um programa que imprima na tela a tabuada de um número
+// qualquer escolhido pelo usuário até o 10.
+let numero = parseInt( prompt("digite um numero:"))
+
+for (let tabuada = 1; tabuada <=10; tabuada++){
+    console.log (numero + "X" + tabuada + "=" + (numero*tabuada))
+}
